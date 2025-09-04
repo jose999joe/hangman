@@ -251,10 +251,10 @@ let wrongGuesses = 0;
 const maxWrong = 6; // 6 body parts
 const bodyParts = document.querySelectorAll(".body img");
 
-const soundCorrect = new Audio("sounds/correct.mp3");
-const soundWrong = new Audio("sounds/wrong.mp3");
-const soundWin = new Audio("sounds/victory.mp3");
-const soundLose = new Audio("sounds/lose.mp3");
+const soundCorrect = new Audio("correct.mp3");
+const soundWrong = new Audio("wrong.mp3");
+const soundWin = new Audio("victory.mp3");
+const soundLose = new Audio("lose.mp3");
 
 // DOM elements
 const scoreEl = document.getElementById("score");
@@ -415,3 +415,4 @@ document.addEventListener("keydown", (e) => {
 
 // Start game
 newRound();
+
